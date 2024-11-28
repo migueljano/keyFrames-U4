@@ -1,0 +1,51 @@
+main {
+    height: 100vh;
+    background-color: #666666;
+}
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    font-family: 'Indie Flower';
+    position: relative;
+
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    margin: 20px 0px 20px 50px;  
+}
+
+h2 {
+    font-size: 3em;
+}
+
+#cardOne  {
+    transform: rotate(-8deg);
+    background-color: #F6F6C6;
+}
+#cardTwo {
+    transform: rotate(8deg);
+    background-color: #D1F7CD;
+}
+#cardTree {
+    transform: rotate(10deg);
+    background-color: #C5C5ED;
+}
+#cardTwo:hover {
+    transform: rotate(0deg);
+    transform: scaleX(1.2);
+}
+#cardOne:hover {
+    width: 270px;
+    transform: rotate(0deg);
+}
+#cardTree:hover {
+    transform: rotate(0deg);
+
+}
